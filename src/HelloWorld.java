@@ -17,6 +17,10 @@ public class HelloWorld {
     String name;
     if(number>10){
       name = "Alfredo";
+    } else if (number >= 10 || number <=5) {
+      name = "Luis";
+    } else {
+      name = "Roberto";
     }
   }
 }
