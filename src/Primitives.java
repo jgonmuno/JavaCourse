@@ -16,7 +16,7 @@ public class Primitives {
     System.out.println("Maximum value of a Short number " +Short.MAX_VALUE);
     System.out.println("Minimum value of a short number " +Short.MIN_VALUE);
 
-    int numberInt = 32767;
+    int numberInt = 2147483647;
     System.out.println ("Integer number is " +numberInt);
     System.out.println("Integer type corresponds to Byte " +Integer.BYTES);
     System.out.println("Integer type corresponds to Bites " +Integer.SIZE);
