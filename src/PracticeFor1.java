@@ -6,8 +6,13 @@ public class PracticeFor1 {
       System.out.println("imprimiendo tabla del " +i+ "\n");
 
       for (int j = 0; j <=20; j++) {
-        System.out.println(i+"x"+j+"="+(i*j) + "\n");
+        if(i%2==0){
+          System.out.println(i+"x"+j+"="+(i*j) + "\n");
+        } else {
+          continue;
+        }
       }
+
     }
 
   }
