@@ -2,7 +2,7 @@ public class ForExample {
 
   public static void main(String[] args) {
 
-    outer : for (int j = 0; j < 10; j++) {
+    outer : for (int j = 0; j < 20; j++) {
       System.out.println("Imprimiendo tabla del " +j+"\n");
      inner: for (int i = 0; i < 10; i++) {
         if (i%2==0){
