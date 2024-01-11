@@ -2,10 +2,20 @@ package T5_POO;
 
 public class Person {
 
-
   String name;
   int age;
   String gender;
+
+  Person(){
+    this("defaultName", 30, "Female");
+    System.out.println("Default constructor");
+  }
+
+  public Person(String name, int age, String gender) {
+    this.name = name;
+    this.age = age;
+    this.gender = gender;
+  }
 
   void playVideogames(Person person){
     System.out.println(name+ " is playing with " +person.name);
@@ -19,21 +29,15 @@ public class Person {
 
 
   public static void main(String[] args) {
-    Person person1 = new Person();
-    person1.name = "Jesus";
-    person1.age = 33;
-    person1.gender = "Male";
+    Person person1 = new Person("Jesus", 33, "Male");
     person1.printInformation();
-    
-    Person person2 = new Person();
-    person2.name = "Fernando";
-    person2.age = 32;
-    person2.gender = "Male";
+
+    Person person2 = new Person("Fernando", 32, "Male");
     person2.printInformation();
 
     person1.playVideogames(person2);
 
-
+    new Person().printInformation();
   }
 
 }
