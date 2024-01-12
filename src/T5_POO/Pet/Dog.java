@@ -17,12 +17,22 @@ public class Dog extends Pet {
   public static void main(String[] args) {
     Dog letiDog = new Dog("Pancho", 11, "White", "Labrador");
     letiDog.printInformation();
+
     Dog anaDog = new Dog("Nera", 7, "Black", "Malinois");
     anaDog.printInformation();
+
     Dog angelDog = new Dog ("Calcetines", 2, "White", "Chihuahua");
     angelDog.printInformation();
+
     Dog juanfranDog = new Dog("Atila", 8, "Black", "German shepherd");
     juanfranDog.printInformation();
+
+    Dog javiDog = new Dog("Pepe", 5, "White", "Dogo");
+    javiDog.printInformation();
+
+    Dog fernandoDog = new Dog("Cristiano", 6, "White", "Carlino");
+    fernandoDog.printInformation();
+
   }
 
 }
