@@ -1,43 +1,35 @@
-package T5_POO;
+package T5_POO.Person;
 
 public class Person {
 
   String name;
-  int age;
-  String gender;
+  String birthDate;
 
-  Person(){
-    this("defaultName", 30, "Female");
-    System.out.println("Default constructor");
+  public Person(){
+
   }
 
-  public Person(String name, int age, String gender) {
+  Person(String name, String birthDate) {
     this.name = name;
-    this.age = age;
-    this.gender = gender;
-  }
-
-  void playVideogames(Person person){
-    System.out.println(name+ " is playing with " +person.name);
+    this.birthDate = birthDate;
   }
 
   void printInformation(){
     System.out.println("Name: " +name);
-    System.out.println("Age: " +age);
-    System.out.println("Gender: " +gender);
+    System.out.println("birthDate: " +birthDate);
   }
 
-
-  public static void main(String[] args) {
-    Person person1 = new Person("Jesus", 33, "Male");
-    person1.printInformation();
-
-    Person person2 = new Person("Fernando", 32, "Male");
-    person2.printInformation();
-
-    person1.playVideogames(person2);
-
-    new Person().printInformation();
+  void eat(){
+      System.out.println("I am " +name+ "and I eat 3 times per day");
   }
+
+  void sleep(){
+    System.out.println("I am " +name+ "and I can sleep since " +birthDate);
+  }
+
+  void breathe(){
+    System.out.println("I am " +name+ "and I can breathe");
+  }
+
 
 }
