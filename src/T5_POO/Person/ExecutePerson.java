@@ -8,5 +8,12 @@ public class ExecutePerson {
     student1.sleep();
     student1.pass();
     student1.fail();
+    student1.breathe();
+
+    Employee e = new Employee(168, 7.5, "Fulgencio Cifuentes", "11/01/1973");
+    e.printTimetableAndSalary();
+
+    Employee specialist = new Employee (160, 10, "Alan Turing", "21/12/1981");
+    specialist.printTimetableAndSalary();
   }
 }
