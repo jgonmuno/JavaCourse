@@ -5,10 +5,6 @@ public class Person {
   String name;
   String birthDate;
 
-  public Person(){
-
-  }
-
   Person(String name, String birthDate) {
     this.name = name;
     this.birthDate = birthDate;
@@ -19,8 +15,8 @@ public class Person {
     System.out.println("birthDate: " +birthDate);
   }
 
-  void eat(){
-      System.out.println("I am " +name+ "and I eat 3 times per day");
+  void eat() {
+      System.out.println("I am " +name+ " and I eat 3 times per day");
   }
 
   void sleep(){
@@ -30,6 +26,4 @@ public class Person {
   void breathe(){
     System.out.println("I am " +name+ "and I can breathe");
   }
-
-
 }
