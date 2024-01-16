@@ -15,5 +15,6 @@ public class ExecutePerson {
 
     Employee specialist = new Employee (160, 10, "Alan Turing", "21/12/1981");
     specialist.printTimetableAndSalary();
+
   }
 }

@@ -1,6 +1,6 @@
 package T5_POO.Person;
 
-public class Person {
+public abstract class Person {
 
   String name;
   String birthDate;
