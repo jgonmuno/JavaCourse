@@ -18,6 +18,7 @@ public class Cat extends Pet {
   public static void main(String[] args) {
     Cat seteCat=new Cat("Elfa", 3, "black", "angora", "green");
     seteCat.printInformation();
+    seteCat.breathe();
   }
 
 

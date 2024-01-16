@@ -16,4 +16,14 @@ public class Pet {
     this.color = color;
   }
 
+  public void breathe(){
+    System.out.println("This animal can breathe");
+  }
+
+  public static void main(String[] args) {
+    Pet puppy = new Pet();
+    System.out.println(puppy instanceof Pet);
+    System.out.println(puppy instanceof Object);
+  }
+
 }
