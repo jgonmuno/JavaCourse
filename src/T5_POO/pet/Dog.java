@@ -1,4 +1,4 @@
-package T5_POO.Pet;
+package T5_POO.pet;
 
 public class Dog extends Pet {
 

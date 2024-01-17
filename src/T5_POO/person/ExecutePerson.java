@@ -1,4 +1,4 @@
-package T5_POO.Person;
+package T5_POO.person;
 
 public class ExecutePerson {
 
@@ -17,6 +17,5 @@ public class ExecutePerson {
     Employee specialist = new Employee (160, 10, "Alan Turing", "21/12/1981");
     specialist.printTimetableAndSalary();
     specialist.recommendEmployee("David Fernandez", "17/12/1992");
-
   }
 }

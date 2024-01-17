@@ -1,4 +1,4 @@
-package T5_POO.Person;
+package T5_POO.person;
 
 import java.util.ArrayList;
 import java.util.List;

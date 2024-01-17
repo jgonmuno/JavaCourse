@@ -1,4 +1,4 @@
-package T5_POO.Person;
+package T5_POO.person;
 
 public abstract class Person {
 
