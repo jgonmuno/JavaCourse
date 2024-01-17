@@ -25,12 +25,12 @@ public class Employee extends Person {
     System.out.println("The employee " +name+ " works " +monthlyhHours+ " hours per month and its total salary per month is " +calculateTotalSalary());
  }
 
- public void addEmployee(Employee employee){
+ public void recommendEmployee(Employee employee){
    List <Employee> employeeList = new ArrayList<Employee>();
    employeeList.add(employee);
  }
 
- public void addEmployee(String name, String birthDate){
+ public void recommendEmployee(String name, String birthDate){
     List <Employee> employeeList = new ArrayList<Employee>();
     employeeList.add(new Employee(monthlyhHours, salaryPerHour ,name, birthDate));
  }

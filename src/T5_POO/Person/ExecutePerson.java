@@ -12,9 +12,11 @@ public class ExecutePerson {
 
     Employee e = new Employee(168, 7.5, "Fulgencio Cifuentes", "11/01/1973");
     e.printTimetableAndSalary();
+    e.recommendEmployee(new Employee(180, 5.5, "Antonio Lopez", "18/12/1999"));
 
     Employee specialist = new Employee (160, 10, "Alan Turing", "21/12/1981");
     specialist.printTimetableAndSalary();
+    specialist.recommendEmployee("David Fernandez", "17/12/1992");
 
   }
 }
