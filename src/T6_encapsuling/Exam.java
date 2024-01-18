@@ -1,4 +1,4 @@
-package T6.encapsuling;
+package T6_encapsuling;
 
 class Exam {
    private double mark;

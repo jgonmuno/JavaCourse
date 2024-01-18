@@ -1,4 +1,4 @@
-package T6.encapsuling;
+package T6_encapsuling;
 
 public class ExamTest {
 
