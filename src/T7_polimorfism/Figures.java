@@ -1,4 +1,4 @@
-package T7.polimorfism;
+package T7_polimorfism;
 
 public class Figures {
 
