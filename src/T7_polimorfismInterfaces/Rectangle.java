@@ -1,4 +1,4 @@
-package T7_polimorfism;
+package T7_polimorfismInterfaces;
 
 public class Rectangle extends Figures{
 

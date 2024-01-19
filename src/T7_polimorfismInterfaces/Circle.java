@@ -1,6 +1,6 @@
-package T7_polimorfism;
+package T7_polimorfismInterfaces;
 
-public class Circle extends Figures{
+public class Circle extends Figures implements Drawable{
 
   private double radio;
 
@@ -16,5 +16,10 @@ public class Circle extends Figures{
 
   void roll(){
     System.out.println("The circle "+color+"is rolling");
+  }
+
+  @Override
+  public void draw() {
+    System.out.println("Drawing a circle");
   }
 }
