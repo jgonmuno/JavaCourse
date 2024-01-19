@@ -13,4 +13,8 @@ public class Circle extends Figures{
   public double calculateArea(){
     return Math.PI * Math.pow(radio, 2);
   }
+
+  void roll(){
+    System.out.println("The circle "+color+"is rolling");
+  }
 }

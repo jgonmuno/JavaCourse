@@ -1,8 +1,8 @@
 package T7_polimorfism;
 
-public class Figures {
+public abstract class Figures {
 
-  private String color;
+  public String color;
 
   public Figures(String color) {
     this.color = color;
@@ -16,7 +16,5 @@ public class Figures {
     this.color = color;
   }
 
-  public double calculateArea(){
-    return 0;
-  }
+  public abstract double calculateArea();
 }
