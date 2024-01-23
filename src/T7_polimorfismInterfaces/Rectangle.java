@@ -1,6 +1,6 @@
 package T7_polimorfismInterfaces;
 
-public class Rectangle extends Figures{
+public class Rectangle extends Figures implements Drawable{
 
   private double base;
   private double height;
@@ -14,5 +14,10 @@ public class Rectangle extends Figures{
   @Override
   public double calculateArea(){
     return base * height;
+  }
+
+  @Override
+  public void draw() {
+
   }
 }
