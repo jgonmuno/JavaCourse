@@ -2,11 +2,15 @@ package T7_polimorfismInterfaces.Automobiles;
 
 public class Automobiles {
 
+  public String brand;
+  public String model;
   public String color;
-  public int power;
-  public int cc;
+  public double power;
+  public double cc;
 
-  public Automobiles(String color, int power, int cc) {
+  public Automobiles(String brand, String model, String color, double power, double cc) {
+    this.brand = brand;
+    this.model = model;
     this.color = color;
     this.power = power;
     this.cc = cc;
@@ -20,7 +24,7 @@ public class Automobiles {
     this.color = color;
   }
 
-  public int getPower() {
+  public double getPower() {
     return power;
   }
 
@@ -28,11 +32,27 @@ public class Automobiles {
     this.power = power;
   }
 
-  public int getCc() {
+  public double getCc() {
     return cc;
   }
 
   public void setCc(int cc) {
     this.cc = cc;
+  }
+
+  public String getBrand() {
+    return brand;
+  }
+
+  public void setBrand(String brand) {
+    this.brand = brand;
+  }
+
+  public String getModel() {
+    return model;
+  }
+
+  public void setModel(String model) {
+    this.model = model;
   }
 }
