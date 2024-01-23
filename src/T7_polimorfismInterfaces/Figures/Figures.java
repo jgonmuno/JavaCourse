@@ -1,4 +1,4 @@
-package T7_polimorfismInterfaces;
+package T7_polimorfismInterfaces.Figures;
 
 public abstract class Figures {
 
